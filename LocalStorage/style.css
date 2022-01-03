@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4b6cb7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#reg {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+
+#reg .input-group {
+    left: 50px;
+    width: 50vw;
+}
+
+#reg h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.space {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#nameTR {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#nameTR td,
+th {
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+#nameTR button {
+    width: 45%;
+    margin: 3px;
+    padding: 4px;
+}
+
+#nameTR th {
+    text-align: center;
+}
+
+#form {
+    padding: 10px;
+}
